@@ -85,15 +85,19 @@
               </div>
 
               <div class="container" style="margin-left: 10px;">
-                <ul style="margin-bottom: 5px;">
+                <ul style="margin-bottom: 5px; margin-right: 10%;" class="flex justify-content-between">
                   <li style="margin-bottom: 20px;">  L. Labazanova, S. Peng, <strong>L. Qiu,</strong> H.-Y. Lee, T. Nanayakkara, and D. Navarro-Alarcon. “Self-
                     Reconfigurable Soft-Rigid Mobile Agent with Variable Stiffness and Adaptive Morphology”. IEEE
                     Robotics and Automation Letters (RA-L), vol. 8, no. 3, pp. 1643-1650, 2023.
-                    <a href="/assets/publications/Self-Reconfigurable_Soft-Rigid_Mobile_Agent_With_Variable_Stiffness_and_Adaptive_Morphology.pdf" target="_blank">[Link]</a> </li>
+                    <a target="_blank" href="https://ieeexplore.ieee.org/document/10035296">[doi]</a>
+                    <a target="_blank" href="assets/publications/Self-Reconfigurable_Soft-Rigid_Mobile_Agent_With_Variable_Stiffness_and_Adaptive_Morphology.pdf">[pdf]</a>
+                    <!-- <embed width="800" height="600" src="/assets/publications/Self-Reconfigurable_Soft-Rigid_Mobile_Agent_With_Variable_Stiffness_and_Adaptive_Morphology.pdf"></embed> -->
+                  </li>
                   <li> H.-Y. Lee, P. Zhou, B. Zhang, <strong>L. Qiu,</strong>  A. Duan, J. Tang, T. L. Lam, and D. Navarro-Alarcon. A
                     Distributed Dynamic Framework to Allocate Collaborative Tasks Based on Capability Matching in
                     Heterogeneous Multi-Robot Systems. IEEE Transactions on Cognitive and Developmental Systems (TCDS),
-                    2023. <a href="/assets/publications/capability_matching.pdf" target="_blank">[Link]</a></li>
+                    2023. <a target="_blank" href="https://ieeexplore.ieee.org/document/10090431">[doi]</a>
+                    <a href="https://www.romi-lab.org/_files/ugd/49b3f5_2b9fc0c6498f4d5b934718871f49675c.pdf" target="_blank">[pdf]</a></li>
                 </ul>
               </div>
             </div>
@@ -105,7 +109,7 @@
               </div>
 
               <div class="container" style="margin-left: 10px;">
-                <ul style="margin-bottom: 5px;">
+                <ul style="margin-bottom: 5px; margin-right: 10%;">
                   <li>  <strong>Valen Qiu,</strong> Sam Yao, Tom Zeng. Application of 3D printing in FSAE Upright Optimization. Grass Roots
                     Education, Design Spark, 2022. <a href="https://www.rs-online.com/designspark/content-types/article/25740" target="_blank">[Link]</a></li>
                 </ul>
@@ -194,6 +198,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Script of open PDF in a new webpage-->
+  <script>
+    function openPdfInNewTab() {
+        window.open('http://domain.com/your_pdf.pdf', '_blank');
+    }
+</script>
+<!-- Create a link that calls the JavaScript function when clicked -->
+<a href="#" onclick="openPdfInNewTab(); return false;">Open PDF</a>
 </body>
 
 
