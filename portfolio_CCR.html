@@ -172,214 +172,216 @@
               </p>
             </div>
 
-            <div class="my-5">
-              <h5><strong>2. Concept</strong></h5>
-              <div class="col-lg-8">
-                <p>A Cooperative Continuum Robotic System with a supportive robot that can change its connecting point along the 
-                  Operative robot.
-                  <ul>
-                    <li>Variable stiffness.</li>
-                    <li>Adapt to more complex scenarios.</li>
-                  </ul>
-                </p>
-                <p>
-                  <strong>Design Goal: </strong>
-                  <ol>
-                    <li>Two homogeneous Continuum Robots.</li>
-                    <li>An end-effector on the tip of the supportive robot that can “grasp” the body of the operative robot.</li>
-                  </ol>
-                </p>
-              </div>
-
-              <div class="col d-flex justify-content-center align-items-center">
-                <img class="mr-5" src="/assets/img/portfolio/CCR/concept.png" alt="" height="190px" width="auto">
-              </div>
-            </div>
-
-            <div class="my-5">
-              <h5><strong>3. Design</strong></h5>
-              <div class="row d-flex justify-content-center">
-                <div>
-                  <p><strong>3.1. Continnum Manipulator: </strong></p>
-                </div>
-                <div class="col-lg-2 d-flex justify-content-center">
-                  <img src="assets/img/portfolio/CCR/manipulator.png" height="250px" width="auto">
-                </div>
-
-                <div class="col-lg-4">
-                  <p>
-                    Single-Segment Tendon-Driven Continuum Robot:
+            <div style="filter: blur(10px); pointer-events: none;">
+              <div class="my-5">
+                <h5><strong>2. Concept</strong></h5>
+                <div class="col-lg-8">
+                  <p>A Cooperative Continuum Robotic System with a supportive robot that can change its connecting point along the 
+                    Operative robot.
                     <ul>
-                      <li>Materials: Backbone: Nickel Titanium Alloy</li>
-                      <li>Spacer Disks: PLA</li>
-                      <li>Length: 400mm </li>
-                      <li>Disk diameter: 25mm</li>
-                      <li>Disk thickness: 2.5mm</li>
-                      <li>Tendon displacement: 20mm</li>
+                      <li>Variable stiffness.</li>
+                      <li>Adapt to more complex scenarios.</li>
                     </ul>
                   </p>
-                </div>
-
-                <div class="col-lg-2 d-flex justify-content-center">
-                  <img src="assets/img/portfolio/CCR/actuator.jpg" height="250px" width="auto">
-                </div>
-
-                <div class="col-lg-4">
                   <p>
-                    Driven by Dynamixel XL430-250.
+                    <strong>Design Goal: </strong>
+                    <ol>
+                      <li>Two homogeneous Continuum Robots.</li>
+                      <li>An end-effector on the tip of the supportive robot that can “grasp” the body of the operative robot.</li>
+                    </ol>
                   </p>
                 </div>
-                
+  
+                <div class="col d-flex justify-content-center align-items-center">
+                  <img class="mr-5" src="/assets/img/portfolio/CCR/concept.png" alt="" height="190px" width="auto">
+                </div>
               </div>
-
-              <div class="row my-3">
+  
+              <div class="my-5">
+                <h5><strong>3. Design</strong></h5>
+                <div class="row d-flex justify-content-center">
+                  <div>
+                    <p><strong>3.1. Continnum Manipulator: </strong></p>
+                  </div>
+                  <div class="col-lg-2 d-flex justify-content-center">
+                    <img src="assets/img/portfolio/CCR/manipulator.png" height="250px" width="auto">
+                  </div>
+  
+                  <div class="col-lg-4">
+                    <p>
+                      Single-Segment Tendon-Driven Continuum Robot:
+                      <ul>
+                        <li>Materials: Backbone: Nickel Titanium Alloy</li>
+                        <li>Spacer Disks: PLA</li>
+                        <li>Length: 400mm </li>
+                        <li>Disk diameter: 25mm</li>
+                        <li>Disk thickness: 2.5mm</li>
+                        <li>Tendon displacement: 20mm</li>
+                      </ul>
+                    </p>
+                  </div>
+  
+                  <div class="col-lg-2 d-flex justify-content-center">
+                    <img src="assets/img/portfolio/CCR/actuator.jpg" height="250px" width="auto">
+                  </div>
+  
+                  <div class="col-lg-4">
+                    <p>
+                      Driven by Dynamixel XL430-250.
+                    </p>
+                  </div>
+                  
+                </div>
+  
+                <div class="row my-3">
+                  <div class="col-lg-8">
+                    <p>
+                      <strong>3.2. Pneumatic Gripper: </strong><br>
+                      The gripper is mounted on the tip of the operative arm, thus it is required to be:
+                      <ul>
+                        <li>Light weight as much as possible (19g)</li>
+                        <li>A solid frame with two soft (silicone) actuators</li>
+                      </ul>
+                    </p>
+                  </div>
+  
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img class="mr-5 mx-5" src="/assets/img/portfolio/CCR/gripper.jpg" height="200px" width="auto">
+                  </div>
+  
+                  <div>
+                    <p>
+                      Gripper Controller: <br>
+                      The gripper controller is inspired by V. W. Oguntosin's work 
+                      <cite><a href="https://core.ac.uk/download/pdf/42151678.pdf" target="_blank">[3]</a></cite>.<br>
+                    </p>
+  
+                    <div class="ros justify-content-center d-flex">
+                      <div class="col-lg-6 justify-content-center d-flex">
+                        <img src="/assets/img/portfolio/CCR/gripper_control.png" height="250px" width="auto">
+                      </div>
+  
+                      <div class="col-lg-6 justify-content-center d-flex">
+                        <img src="/assets/img/portfolio/CCR/PressureControl_2.png" height="250px" width="auto">
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <p>
+                      <strong>3.3. Soft Actuator Fabrication:</strong>
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img class="mr-5 mx-5" src="/assets/img/portfolio/CCR/fabrication.png" height="200px" width="auto">
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <p>
+                      <strong>3.4. System Setup:</strong>
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img class="mr-5 mx-5" src="/assets/img/portfolio/CCR/systemSetup.png" height="200px" width="auto">
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+  
+              <div class="my-5">
+                <h5><strong>4. Experiments</strong></h5>
+                <div class="col">
+                  <p>To valduate the idea, we ran the following experiments for the proof of concept.</p>
+                </div>
+  
+                <div class="row">
+                  <div>
+                    <p><strong>4.1. Static Analysis: Stiffness Inhancement</strong></p>
+                  </div>
+  
+                  <div class="col-lg-6 mb-3 justify-content-center d-flex">
+                    <img src="/assets/img/portfolio/CCR/original.png" height="200px" width="auto">
+                  </div>
+  
+                  <div class="col-lg-6 mb-3 justify-content-center d-flex">
+                    <img src="/assets/img/portfolio/CCR/10g.png" height="200px" width="auto">
+                  </div>
+  
+                  <div class="col-lg-6 mb-3 justify-content-center d-flex">
+                    <img src="/assets/img/portfolio/CCR/50g.png" height="200px" width="auto">
+                  </div>
+  
+                  <div class="col-lg-6 mb-3 justify-content-center d-flex">
+                    <img src="/assets/img/portfolio/CCR/60g.png" height="200px" width="auto">
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div>
+                    <p><strong>4.2. Static Analysis: Static Load</strong></p>
+                  </div>
+  
+                  <div class="col justify-content-center d-flex">
+                    <img src="/assets/img/portfolio/CCR/static_load.png" height="200px" width="auto">
+                  </div>
+  
+                </div>
+  
+                <div class="row">
+                  <div>
+                    <p><strong>4.3. Dynamic Analysis: Movement Along the Operative Arm</strong></p>
+                  </div>
+                  <div class="col justify-content-center d-flex">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1ZzF_pNxF-U?si=OZX2kfH5HruyKuh1" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div>
+                    <p><strong>4.4. Dynamic Analysis: Grasping Performance</strong></p>
+                  </div>
+  
+                  <div class="col justify-content-center d-flex">
+                    <img src="/assets/img/portfolio/CCR/grasp_setup.png">
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 justify-content-center d-flex">
+                      <p class="text-center"><strong>Passive Supporting</strong></p>
+                    </div>
+  
+                    <div class="col-lg-6 col-md-6 justify-content-center d-flex">
+                      <p class="text-center"><strong>Passive Supporting</strong></p>
+                    </div>
+                  </div>
+                  
+                  <div class="row justify-content-center d-flex">
+                    <div class="col-lg-6 col-md-6 justify-content-center d-flex my-3">
+                      <iframe width="444px" height="250px" src="https://www.youtube.com/embed/85mfO2bwHdg?si=jiOeAR5lyjD922H0" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+  
+                    <div class="col-lg-6 col-md-6 justify-content-center d-flex my-3">
+                      <iframe width="444px" height="250px" src="https://www.youtube.com/embed/2MYgAG-AKMw?si=y9PGNdXgXvuN5veY" title="YouTube video player" 
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+  
+              <div class="my-5">
+                <h5><strong>5. Future Improvement</strong></h5>
                 <div class="col-lg-8">
                   <p>
-                    <strong>3.2. Pneumatic Gripper: </strong><br>
-                    The gripper is mounted on the tip of the operative arm, thus it is required to be:
                     <ul>
-                      <li>Light weight as much as possible (19g)</li>
-                      <li>A solid frame with two soft (silicone) actuators</li>
+                      <li>Continuum robot improvement: Multi-segment continuum arm.</li>
+                      <li>Decrease the weight of the gripper: Reduce the static load of the supportive robot.</li>
+                      <li>Develop the dynamic model</li>
                     </ul>
                   </p>
                 </div>
-
-                <div class="d-flex justify-content-center align-items-center">
-                  <img class="mr-5 mx-5" src="/assets/img/portfolio/CCR/gripper.jpg" height="200px" width="auto">
-                </div>
-
-                <div>
-                  <p>
-                    Gripper Controller: <br>
-                    The gripper controller is inspired by V. W. Oguntosin's work 
-                    <cite><a href="https://core.ac.uk/download/pdf/42151678.pdf" target="_blank">[3]</a></cite>.<br>
-                  </p>
-
-                  <div class="ros justify-content-center d-flex">
-                    <div class="col-lg-6 justify-content-center d-flex">
-                      <img src="/assets/img/portfolio/CCR/gripper_control.png" height="250px" width="auto">
-                    </div>
-
-                    <div class="col-lg-6 justify-content-center d-flex">
-                      <img src="/assets/img/portfolio/CCR/PressureControl_2.png" height="250px" width="auto">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <p>
-                    <strong>3.3. Soft Actuator Fabrication:</strong>
-                  </p>
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img class="mr-5 mx-5" src="/assets/img/portfolio/CCR/fabrication.png" height="200px" width="auto">
-                  </div>
-                </div>
-
-                <div class="row">
-                  <p>
-                    <strong>3.4. System Setup:</strong>
-                  </p>
-                  <div class="d-flex justify-content-center align-items-center">
-                    <img class="mr-5 mx-5" src="/assets/img/portfolio/CCR/systemSetup.png" height="200px" width="auto">
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="my-5">
-              <h5><strong>4. Experiments</strong></h5>
-              <div class="col">
-                <p>To valduate the idea, we ran the following experiments for the proof of concept.</p>
-              </div>
-
-              <div class="row">
-                <div>
-                  <p><strong>4.1. Static Analysis: Stiffness Inhancement</strong></p>
-                </div>
-
-                <div class="col-lg-6 mb-3 justify-content-center d-flex">
-                  <img src="/assets/img/portfolio/CCR/original.png" height="200px" width="auto">
-                </div>
-
-                <div class="col-lg-6 mb-3 justify-content-center d-flex">
-                  <img src="/assets/img/portfolio/CCR/10g.png" height="200px" width="auto">
-                </div>
-
-                <div class="col-lg-6 mb-3 justify-content-center d-flex">
-                  <img src="/assets/img/portfolio/CCR/50g.png" height="200px" width="auto">
-                </div>
-
-                <div class="col-lg-6 mb-3 justify-content-center d-flex">
-                  <img src="/assets/img/portfolio/CCR/60g.png" height="200px" width="auto">
-                </div>
-              </div>
-
-              <div class="row">
-                <div>
-                  <p><strong>4.2. Static Analysis: Static Load</strong></p>
-                </div>
-
-                <div class="col justify-content-center d-flex">
-                  <img src="/assets/img/portfolio/CCR/static_load.png" height="200px" width="auto">
-                </div>
-
-              </div>
-
-              <div class="row">
-                <div>
-                  <p><strong>4.3. Dynamic Analysis: Movement Along the Operative Arm</strong></p>
-                </div>
-                <div class="col justify-content-center d-flex">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/1ZzF_pNxF-U?si=OZX2kfH5HruyKuh1" title="YouTube video player" 
-                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-              </div>
-
-              <div class="row">
-                <div>
-                  <p><strong>4.4. Dynamic Analysis: Grasping Performance</strong></p>
-                </div>
-
-                <div class="col justify-content-center d-flex">
-                  <img src="/assets/img/portfolio/CCR/grasp_setup.png">
-                </div>
-
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 justify-content-center d-flex">
-                    <p class="text-center"><strong>Passive Supporting</strong></p>
-                  </div>
-
-                  <div class="col-lg-6 col-md-6 justify-content-center d-flex">
-                    <p class="text-center"><strong>Passive Supporting</strong></p>
-                  </div>
-                </div>
-                
-                <div class="row justify-content-center d-flex">
-                  <div class="col-lg-6 col-md-6 justify-content-center d-flex my-3">
-                    <iframe width="444px" height="250px" src="https://www.youtube.com/embed/85mfO2bwHdg?si=jiOeAR5lyjD922H0" title="YouTube video player" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  </div>
-
-                  <div class="col-lg-6 col-md-6 justify-content-center d-flex my-3">
-                    <iframe width="444px" height="250px" src="https://www.youtube.com/embed/2MYgAG-AKMw?si=y9PGNdXgXvuN5veY" title="YouTube video player" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="my-5">
-              <h5><strong>5. Future Improvement</strong></h5>
-              <div class="col-lg-8">
-                <p>
-                  <ul>
-                    <li>Continuum robot improvement: Multi-segment continuum arm.</li>
-                    <li>Decrease the weight of the gripper: Reduce the static load of the supportive robot.</li>
-                    <li>Develop the dynamic model</li>
-                  </ul>
-                </p>
               </div>
             </div>
 
